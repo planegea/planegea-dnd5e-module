@@ -1,7 +1,7 @@
 {
     "id": "planegea",
     "title": "Star Shamans Song of Planegea",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
