@@ -2,7 +2,7 @@
     "id": "planegea",
     "title": "Planegea - D&D 5e",
     "version": "1.0.0",
-    "download": "https://raw.githubusercontent.com/johnweland/plangea-dnd5e-module/refs/heads/main/module.json?token=GHSAT0AAAAAACZWTVWF4HT2H3CFKN2VXE4CZ3KGWWQ",
+    "manifest": "https://raw.githubusercontent.com/johnweland/plangea-dnd5e-module/refs/heads/main/module.json?token=GHSAT0AAAAAACZWTVWF4HT2H3CFKN2VXE4CZ3KGWWQ",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
