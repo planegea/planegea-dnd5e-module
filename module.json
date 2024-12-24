@@ -1,14 +1,18 @@
 {
     "id": "planegea",
     "title": "Planegea - D&D 5e",
-    "version": "1.0.0",
-    "manifest": "https://raw.githubusercontent.com/johnweland/plangea-dnd5e-module/refs/heads/main/module.json?token=GHSAT0AAAAAACZWTVWF4HT2H3CFKN2VXE4CZ3KGWWQ",
+    "version": "#{VERSION}#",
+    "url": "#{URL}#",
+    "manifest": "#{MANIFEST}#",
+    "download": "#{DOWNLOAD}#",
+    "changelog": "#{CHANGELOG}#",
+    "license": "LICENSE",
+    "readme": "README.md",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
     },
     "description": "This module contains all the Planegea content contained in the Star-Shaman's Song of Planegea as well as the Patreon Premium Content.",
-    "changelog": "https://github.com/johnweland/plangea-dnd5e-module/blob/main/CHANGELOG.md",
     "flags": {
         "dnd5e": {
             "sourceBooks": {
@@ -40,7 +44,6 @@
             "flags": {}
         }
     ],
-    "url": "https://www.reddit.com/r/planegea/wiki/foundryvtt",
     "packs": [
         {
             "name": "monsters",
@@ -51,7 +54,8 @@
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
-            }
+            },
+            "flags": {}
         },
         {
             "name": "kinships",
@@ -62,7 +66,8 @@
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
-            }
+            },
+            "flags": {}
         },
         {
             "name": "backgrounds",
@@ -73,7 +78,8 @@
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
-            }
+            },
+            "flags": {}
         },
         {
             "name": "spells",
@@ -84,7 +90,8 @@
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
-            }
+            },
+            "flags": {}
         },
         {
             "name": "items",
@@ -95,7 +102,8 @@
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
-            }
+            },
+            "flags": {}
         },
         {
             "name": "classes",
@@ -106,7 +114,8 @@
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
-            }
+            },
+            "flags": {}
         },
         {
             "name": "scenes",
@@ -117,7 +126,8 @@
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
-            }
+            },
+            "flags": {}
         },
         {
             "name": "vehicles",
@@ -128,7 +138,8 @@
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             },
-            "system": "dnd5e"
+            "system": "dnd5e",
+            "flags": {}
         }
     ],
     "packFolders": [
