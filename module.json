@@ -1,7 +1,7 @@
 {
     "id": "planegea",
     "title": "Planegea - D&D 5e",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
