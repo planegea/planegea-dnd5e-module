@@ -1,101 +1,104 @@
 {
-    "id": "planegea",
-    "title": "Planegea - D&D 5e",
-    "version": "0.2.0",
-    "compatibility": {
-        "minimum": "12",
-        "verified": "12"
+  "id": "planegea",
+  "title": "Planegea - D&D 5e",
+  "version": "0.2.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "SSSoP": "Star Shaman's Song of Planegea"
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Johnny Danger",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "monsters",
+      "label": "Monsters",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
-    "flags": {
-        "dnd5e": {
-            "sourceBooks": {
-                "SSSoP": "Star Shaman's Song of Planegea"
-            }
-        }
+    {
+      "name": "kinships",
+      "label": "Kinships",
+      "path": "packs/kinships",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
-    "authors": [
-        {
-            "name": "Johnny Danger",
-            "flags": {}
-        }
-    ],
-    "packs": [
-        {
-            "name": "monsters",
-            "label": "Monsters",
-            "path": "packs/monsters",
-            "type": "Actor",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "kinships",
-            "label": "Kinships",
-            "path": "packs/kinships",
-            "type": "Item",
-            "system": "dnd5e",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        },
-        {
-            "name": "backgrounds",
-            "label": "Backgrounds",
-            "path": "packs/backgrounds",
-            "type": "Item",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "dnd5e"
-        },
-        {
-            "name": "spells",
-            "label": "Spells",
-            "path": "packs/spells",
-            "type": "Item",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "dnd5e"
-        },
-        {
-            "name": "items",
-            "label": "Items",
-            "path": "packs/items",
-            "type": "Item",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "dnd5e"
-        },
-        {
-            "name": "classes",
-            "label": "Classes",
-            "path": "packs/classes",
-            "type": "Item",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            },
-            "system": "dnd5e"
-        },
-        {
-            "name": "star-sharmans-song",
-            "label": "Star Sharmans Song",
-            "path": "packs/star-sharmans-song",
-            "type": "JournalEntry",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
-        }
-    ],
-    "esmodules": ["scripts/planegea.js"]
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "esmodules": [
+    "scripts/planegea.js"
+  ]
 }
