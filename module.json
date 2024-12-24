@@ -7,6 +7,7 @@
         "verified": "12"
     },
     "description": "This module contains all the Planegea content contained in the Star-Shaman's Song of Planegea as well as the Patreon Premium Content.",
+    "changelog": "https://github.com/johnweland/plangea-dnd5e-module/blob/main/CHANGELOG.md",
     "flags": {
         "dnd5e": {
             "sourceBooks": {
@@ -23,8 +24,17 @@
             "flags": {}
         },
         {
-            "name": "Johnny Danger",
+            "name": "John Weland",
+            "discord": "johnnydanger",
+            "url": "https://github.com/johnweland",
             "flags": {}
+        }
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "url": "modules/planegea/media/misc/planegea.webp",
+            "thumbnail": "modules/planegea/media/misc/planegea.webp"
         }
     ],
     "url": "https://www.reddit.com/r/planegea/wiki/foundryvtt",
@@ -105,6 +115,22 @@
                 "ASSISTANT": "OWNER"
             },
             "system": "dnd5e"
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Planegea",
+            "sorting": "a",
+            "color": "#044904",
+            "packs": [
+                "monsters",
+                "kinships",
+                "backgrounds",
+                "spells",
+                "items",
+                "classes",
+                "scenes"
+            ]
         }
     ],
     "esmodules": ["scripts/planegea.js"]
