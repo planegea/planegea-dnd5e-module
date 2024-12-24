@@ -1,153 +1,152 @@
 {
-  "id": "planegea",
-  "title": "Planegea - D&D 5e",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "12",
-    "verified": "12"
-  },
-  "description": "This module contains all the Planegea content contained in the Star-Shaman's Song of Planegea as well as the Patreon Premium Content.",
-  "changelog": "https://github.com/johnweland/plangea-dnd5e-module/blob/main/CHANGELOG.md",
-  "flags": {
-    "dnd5e": {
-      "sourceBooks": {
-        "SSSoP": "Star Shaman's Song of Planegea"
-      }
-    }
-  },
-  "authors": [
-    {
-      "name": "Adam Beckwith",
-      "email": "Extterm55@gmail.com",
-      "url": "https://www.reddit.com/r/Planegea/",
-      "discord": "darth_havoc",
-      "flags": {}
+    "id": "planegea",
+    "title": "Planegea - D&D 5e",
+    "version": "1.0.0",
+    "download": "https://raw.githubusercontent.com/johnweland/plangea-dnd5e-module/refs/heads/main/module.json?token=GHSAT0AAAAAACZWTVWF4HT2H3CFKN2VXE4CZ3KGWWQ",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
     },
-    {
-      "name": "John Weland",
-      "discord": "johnnydanger",
-      "url": "https://github.com/johnweland",
-      "flags": {}
-    }
-  ],
-  "media": [
-    {
-      "type": "setup",
-      "url": "modules/planegea/media/misc/planegea.webp",
-      "thumbnail": "modules/planegea/media/misc/planegea.webp",
-      "loop": false,
-      "flags": {}
-    }
-  ],
-  "url": "https://www.reddit.com/r/planegea/wiki/foundryvtt",
-  "packs": [
-    {
-      "name": "monsters",
-      "label": "Monsters",
-      "path": "packs/monsters",
-      "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
+    "description": "This module contains all the Planegea content contained in the Star-Shaman's Song of Planegea as well as the Patreon Premium Content.",
+    "changelog": "https://github.com/johnweland/plangea-dnd5e-module/blob/main/CHANGELOG.md",
+    "flags": {
+        "dnd5e": {
+            "sourceBooks": {
+                "SSSoP": "Star Shaman's Song of Planegea"
+            }
+        }
     },
-    {
-      "name": "kinships",
-      "label": "Kinships",
-      "path": "packs/kinships",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "backgrounds",
-      "label": "Backgrounds",
-      "path": "packs/backgrounds",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "spells",
-      "label": "Spells",
-      "path": "packs/spells",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "items",
-      "label": "Items",
-      "path": "packs/items",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "classes",
-      "label": "Classes",
-      "path": "packs/classes",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "scenes",
-      "label": "Scenes",
-      "path": "packs/scenes",
-      "type": "Scene",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "vehicles",
-      "label": "Vehicles",
-      "path": "packs/vehicles",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "Planegea",
-      "sorting": "a",
-      "color": "#044904",
-      "packs": [
-        "monsters",
-        "kinships",
-        "backgrounds",
-        "spells",
-        "items",
-        "classes",
-        "scenes"
-      ],
-      "folders": []
-    }
-  ],
-  "esmodules": [
-    "scripts/planegea.js"
-  ]
+    "authors": [
+        {
+            "name": "Adam Beckwith",
+            "email": "Extterm55@gmail.com",
+            "url": "https://www.reddit.com/r/Planegea/",
+            "discord": "darth_havoc",
+            "flags": {}
+        },
+        {
+            "name": "John Weland",
+            "discord": "johnnydanger",
+            "url": "https://github.com/johnweland",
+            "flags": {}
+        }
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "url": "modules/planegea/media/misc/planegea.webp",
+            "thumbnail": "modules/planegea/media/misc/planegea.webp",
+            "loop": false,
+            "flags": {}
+        }
+    ],
+    "url": "https://www.reddit.com/r/planegea/wiki/foundryvtt",
+    "packs": [
+        {
+            "name": "monsters",
+            "label": "Monsters",
+            "path": "packs/monsters",
+            "type": "Actor",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "kinships",
+            "label": "Kinships",
+            "path": "packs/kinships",
+            "type": "Item",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "backgrounds",
+            "label": "Backgrounds",
+            "path": "packs/backgrounds",
+            "type": "Item",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "spells",
+            "label": "Spells",
+            "path": "packs/spells",
+            "type": "Item",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "items",
+            "label": "Items",
+            "path": "packs/items",
+            "type": "Item",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "classes",
+            "label": "Classes",
+            "path": "packs/classes",
+            "type": "Item",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "scenes",
+            "label": "Scenes",
+            "path": "packs/scenes",
+            "type": "Scene",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "vehicles",
+            "label": "Vehicles",
+            "path": "packs/vehicles",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dnd5e"
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Planegea",
+            "sorting": "a",
+            "color": "#044904",
+            "packs": [
+                "monsters",
+                "kinships",
+                "backgrounds",
+                "spells",
+                "items",
+                "classes",
+                "scenes"
+            ],
+            "folders": []
+        }
+    ],
+    "esmodules": ["scripts/planegea.js"]
 }
