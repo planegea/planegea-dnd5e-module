@@ -1,11 +1,12 @@
 {
     "id": "planegea",
-    "title": "Star Shamans Song of Planegea",
-    "version": "0.1.0",
+    "title": "Planegea - D&D 5e",
+    "version": "0.2.0",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
     },
+    "description": "This module contains all the Planegea content contained in the Star-Shaman's Song of Planegea as well as the Patreon Premium Content.",
     "flags": {
         "dnd5e": {
             "sourceBooks": {
@@ -15,10 +16,18 @@
     },
     "authors": [
         {
+            "name": "Adam Beckwith",
+            "email": "Extterm55@gmail.com",
+            "url": "https://www.reddit.com/r/Planegea/",
+            "discord": "darth_havoc",
+            "flags": {}
+        },
+        {
             "name": "Johnny Danger",
             "flags": {}
         }
     ],
+    "url": "https://www.reddit.com/r/planegea/wiki/foundryvtt",
     "packs": [
         {
             "name": "monsters",
@@ -47,54 +56,55 @@
             "label": "Backgrounds",
             "path": "packs/backgrounds",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
-            },
-            "system": "dnd5e"
+            }
         },
         {
             "name": "spells",
             "label": "Spells",
             "path": "packs/spells",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
-            },
-            "system": "dnd5e"
+            }
         },
         {
             "name": "items",
             "label": "Items",
             "path": "packs/items",
             "type": "Item",
+            "system": "dnd5e",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
-            },
-            "system": "dnd5e"
+            }
         },
         {
             "name": "classes",
             "label": "Classes",
             "path": "packs/classes",
             "type": "Item",
+            "system": "dnd5e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "scenes",
+            "label": "Scenes",
+            "path": "packs/scenes",
+            "type": "Scene",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             },
             "system": "dnd5e"
-        },
-        {
-            "name": "star-sharmans-song",
-            "label": "Star Sharmans Song",
-            "path": "packs/star-sharmans-song",
-            "type": "JournalEntry",
-            "ownership": {
-                "PLAYER": "OBSERVER",
-                "ASSISTANT": "OWNER"
-            }
         }
     ],
     "esmodules": ["scripts/planegea.js"]
