@@ -1,20 +1,9 @@
-2024/12/24-02:08:54.803635 74deffe006c0 Recovering log #105
-2024/12/24-02:08:54.809331 74deffe006c0 Level-0 table #107: started
-2024/12/24-02:08:54.840448 74deffe006c0 Level-0 table #107: 615733 bytes OK
-2024/12/24-02:08:54.840569 74deffe006c0 Recovering log #111
-2024/12/24-02:08:54.869285 74deffe006c0 Delete type=0 #105
-2024/12/24-02:08:54.870012 74deffe006c0 Delete type=3 #104
-2024/12/24-02:08:54.870185 74deffe006c0 Delete type=2 #108
-2024/12/24-02:08:54.870847 74deffe006c0 Delete type=0 #111
-2024/12/24-02:08:57.059879 74defdc006c0 Moved #107 to level-1 615733 bytes OK: files[ 0 1 1 0 0 0 0 ]
-2024/12/24-02:08:57.071929 74defdc006c0 Compacting 1@1 + 1@2 files
-2024/12/24-02:08:57.119378 74defdc006c0 Generated table #113@1: 1015 keys, 1190623 bytes
-2024/12/24-02:08:57.119417 74defdc006c0 Compacted 1@1 + 1@2 files => 1190623 bytes
-2024/12/24-02:08:57.127847 74defdc006c0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/12/24-02:08:57.128108 74defdc006c0 Delete type=2 #107
-2024/12/24-02:08:57.128627 74defdc006c0 Delete type=2 #103
-2024/12/24-02:09:21.208396 74defdc006c0 Level-0 table #115: started
-2024/12/24-02:09:21.208468 74defdc006c0 Level-0 table #115: 0 bytes OK
-2024/12/24-02:09:21.217388 74defdc006c0 Delete type=0 #112
-2024/12/24-02:09:21.236238 74defdc006c0 Manual compaction at level-0 from '!actors!0xksHVP4eJcDr5jV' @ 72057594037927935 : 1 .. '!folders!wDA9nPoN3ZRCXcTS' @ 0 : 0; will stop at (end)
-2024/12/24-02:09:21.236352 74defdc006c0 Manual compaction at level-1 from '!actors!0xksHVP4eJcDr5jV' @ 72057594037927935 : 1 .. '!folders!wDA9nPoN3ZRCXcTS' @ 0 : 0; will stop at (end)
+2024/12/24-02:10:08.675368 74df056006c0 Recovering log #114
+2024/12/24-02:10:08.702237 74df056006c0 Delete type=3 #109
+2024/12/24-02:10:08.702354 74df056006c0 Delete type=0 #114
+2024/12/24-02:10:08.702416 74df056006c0 Delete type=3 #106
+2024/12/24-02:19:37.649881 74defdc006c0 Level-0 table #119: started
+2024/12/24-02:19:37.649956 74defdc006c0 Level-0 table #119: 0 bytes OK
+2024/12/24-02:19:37.659198 74defdc006c0 Delete type=0 #117
+2024/12/24-02:19:37.678710 74defdc006c0 Manual compaction at level-0 from '!actors!0xksHVP4eJcDr5jV' @ 72057594037927935 : 1 .. '!folders!wDA9nPoN3ZRCXcTS' @ 0 : 0; will stop at (end)
+2024/12/24-02:19:37.678819 74defdc006c0 Manual compaction at level-1 from '!actors!0xksHVP4eJcDr5jV' @ 72057594037927935 : 1 .. '!folders!wDA9nPoN3ZRCXcTS' @ 0 : 0; will stop at (end)
