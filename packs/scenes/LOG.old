@@ -1,8 +1,8 @@
-2024/12/25-17:51:08.876570 30edfa000 Recovering log #42
-2024/12/25-17:51:08.877068 30edfa000 Delete type=3 #40
-2024/12/25-17:51:08.877135 30edfa000 Delete type=0 #42
-2024/12/25-17:51:51.831159 313f87000 Level-0 table #47: started
-2024/12/25-17:51:51.831255 313f87000 Level-0 table #47: 0 bytes OK
-2024/12/25-17:51:51.831390 313f87000 Delete type=0 #45
-2024/12/25-17:51:51.831444 313f87000 Manual compaction at level-0 from '!scenes!OZ5OZiGsEhNXyLz8' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!OZ5OZiGsEhNXyLz8.4Uc2cFTgCq2a1WgO.lcmc9nMsIf4OZjWi' @ 0 : 0; will stop at (end)
-2024/12/25-17:51:51.831457 313f87000 Manual compaction at level-1 from '!scenes!OZ5OZiGsEhNXyLz8' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!OZ5OZiGsEhNXyLz8.4Uc2cFTgCq2a1WgO.lcmc9nMsIf4OZjWi' @ 0 : 0; will stop at (end)
+2024/12/28-07:53:56.928260 30e5f7000 Recovering log #50
+2024/12/28-07:53:56.928633 30e5f7000 Delete type=3 #48
+2024/12/28-07:53:56.928681 30e5f7000 Delete type=0 #50
+2024/12/28-07:55:20.665218 313f87000 Level-0 table #53: started
+2024/12/28-07:55:20.665322 313f87000 Level-0 table #53: 0 bytes OK
+2024/12/28-07:55:20.665453 313f87000 Delete type=0 #51
+2024/12/28-07:55:20.665951 313f87000 Manual compaction at level-0 from '!scenes!OZ5OZiGsEhNXyLz8' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!OZ5OZiGsEhNXyLz8.4Uc2cFTgCq2a1WgO.lcmc9nMsIf4OZjWi' @ 0 : 0; will stop at (end)
+2024/12/28-07:55:20.666936 313f87000 Manual compaction at level-1 from '!scenes!OZ5OZiGsEhNXyLz8' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!OZ5OZiGsEhNXyLz8.4Uc2cFTgCq2a1WgO.lcmc9nMsIf4OZjWi' @ 0 : 0; will stop at (end)
