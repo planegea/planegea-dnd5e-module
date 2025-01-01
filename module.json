@@ -16,14 +16,23 @@
   "flags": {
     "dnd5e": {
       "sourceBooks": {
-        "SSSoP": "Star Shaman's Song of Planegea"
+        "SSSoP": "SOURCE.BOOK.SSSoP",
+        "PPPC": "SOURCE.BOOK.PPPC"
       }
     }
   },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
   "authors": [
     {
       "name": "David Somerville",
-      "url": "https://www.reddit.com/r/Planegea/",
+      "url": "http://smrvl.com",
       "discord": "smrvl",
       "flags": {}
     },
@@ -160,7 +169,8 @@
         "spells",
         "items",
         "classes",
-        "scenes"
+        "scenes",
+        "vehicles"
       ],
       "folders": []
     }
