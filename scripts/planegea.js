@@ -4,7 +4,7 @@ Hooks.once("init", () => {
     id: "Compendium.planegea.items.Item.9KM8gNt3FsNh7iI4",
   };
   CONFIG.DND5E.tools.gather = {
-    ability: "wiz",
+    ability: "wis",
     id: "Compendium.planegea.items.Item.8P3VsvqHWJmRnanY",
   };
   CONFIG.DND5E.currencies = {
