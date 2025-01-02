@@ -1,7 +1,5 @@
-2024/12/31-21:04:44.678012 30fe21000 Recovering log #175
-2024/12/31-21:04:44.678379 30fe21000 Delete type=0 #175
-2024/12/31-21:04:44.678417 30fe21000 Delete type=3 #173
-2024/12/31-21:06:29.635751 308c87000 Level-0 table #180: started
-2024/12/31-21:06:29.635788 308c87000 Level-0 table #180: 0 bytes OK
-2024/12/31-21:06:29.635899 308c87000 Delete type=0 #178
-2024/12/31-21:06:29.635979 308c87000 Manual compaction at level-0 from '!folders!6fiYOwf0V6l4DJDN' @ 72057594037927935 : 1 .. '!items.effects!wnTScTFjEuhmPU6v.6XYrklUZMJemqgbc' @ 0 : 0; will stop at (end)
+2025/01/02-10:26:07.554805 30f61e000 Log #183: 0 ops saved to Table #186 OK
+2025/01/02-10:26:07.554905 30f61e000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/classes/000183.log: OK
+2025/01/02-10:26:07.555497 30f61e000 Table #185: 131 entries OK
+2025/01/02-10:26:07.555650 30f61e000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/classes/MANIFEST-000181: OK
+2025/01/02-10:26:07.555992 30f61e000 **** Repaired leveldb /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/classes; recovered 1 files; 111308 bytes. Some data may have been lost. ****

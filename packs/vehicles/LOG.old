@@ -1,8 +1,3 @@
-2024/12/31-21:04:44.682949 30fe21000 Recovering log #46
-2024/12/31-21:04:44.683380 30fe21000 Delete type=0 #46
-2024/12/31-21:04:44.683411 30fe21000 Delete type=3 #44
-2024/12/31-21:06:29.635530 308c87000 Level-0 table #51: started
-2024/12/31-21:06:29.635568 308c87000 Level-0 table #51: 0 bytes OK
-2024/12/31-21:06:29.635677 308c87000 Delete type=0 #49
-2024/12/31-21:06:29.635972 308c87000 Manual compaction at level-0 from '!actors!ADr2gFJ7LHCkzEM4' @ 72057594037927935 : 1 .. '!actors!DvKhP5PtNoA7DVMS' @ 0 : 0; will stop at (end)
-2024/12/31-21:06:29.635997 308c87000 Manual compaction at level-1 from '!actors!ADr2gFJ7LHCkzEM4' @ 72057594037927935 : 1 .. '!actors!DvKhP5PtNoA7DVMS' @ 0 : 0; will stop at (end)
+2024/12/31-21:06:37.835684 30e618000 Recovering log #50
+2024/12/31-21:06:37.836045 30e618000 Delete type=3 #48
+2024/12/31-21:06:37.836088 30e618000 Delete type=0 #50
