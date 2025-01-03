@@ -147,6 +147,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -162,7 +173,8 @@
         "items",
         "classes",
         "scenes",
-        "vehicles"
+        "vehicles",
+        "macros"
       ],
       "folders": []
     }
