@@ -1,17 +1,5 @@
-2025/01/02-14:19:42.746311 30ba2f000 Recovering log #198
-2025/01/02-14:19:42.753635 30ba2f000 Level-0 table #200: started
-2025/01/02-14:19:42.758762 30ba2f000 Level-0 table #200: 161649 bytes OK
-2025/01/02-14:19:42.759258 30ba2f000 Delete type=0 #198
-2025/01/02-14:19:42.760333 30ba2f000 Delete type=3 #197
-2025/01/02-15:26:36.947648 30591b000 Level-0 table #203: started
-2025/01/02-15:26:36.948116 30591b000 Level-0 table #203: 26368 bytes OK
-2025/01/02-15:26:36.948294 30591b000 Delete type=0 #201
-2025/01/02-15:26:36.950176 30591b000 Manual compaction at level-0 from '!folders!1Wcj3dMXD706RuP1' @ 72057594037927935 : 1 .. '!items!zan9G8kdc2yTpBGh' @ 0 : 0; will stop at '!items.effects!zVyRNNDUFvEfQCMw.y5sdLZfDNJCKhd84' @ 796 : 1
-2025/01/02-15:26:36.950181 30591b000 Compacting 3@0 + 0@1 files
-2025/01/02-15:26:36.952283 30591b000 Generated table #204@0: 89 keys, 111250 bytes
-2025/01/02-15:26:36.952289 30591b000 Compacted 3@0 + 0@1 files => 111250 bytes
-2025/01/02-15:26:36.952331 30591b000 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/01/02-15:26:36.952354 30591b000 Delete type=2 #203
-2025/01/02-15:26:36.952401 30591b000 Delete type=2 #200
-2025/01/02-15:26:36.953228 30591b000 Delete type=2 #195
-2025/01/02-15:26:36.953507 30591b000 Manual compaction at level-0 from '!items.effects!zVyRNNDUFvEfQCMw.y5sdLZfDNJCKhd84' @ 796 : 1 .. '!items!zan9G8kdc2yTpBGh' @ 0 : 0; will stop at (end)
+2025/01/04-11:31:40.959177 30b22c000 Log #207: 0 ops saved to Table #210 OK
+2025/01/04-11:31:40.959249 30b22c000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/items/000207.log: OK
+2025/01/04-11:31:40.959507 30b22c000 Table #209: 92 entries OK
+2025/01/04-11:31:40.959631 30b22c000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/items/MANIFEST-000205: OK
+2025/01/04-11:31:40.959855 30b22c000 **** Repaired leveldb /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/items; recovered 1 files; 114517 bytes. Some data may have been lost. ****

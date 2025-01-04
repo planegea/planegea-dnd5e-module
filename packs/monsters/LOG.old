@@ -1,17 +1,5 @@
-2025/01/02-14:19:42.715941 30ba2f000 Recovering log #203
-2025/01/02-14:19:42.716087 30ba2f000 Level-0 table #205: started
-2025/01/02-14:19:42.716280 30ba2f000 Level-0 table #205: 2875 bytes OK
-2025/01/02-14:19:42.716750 30ba2f000 Delete type=0 #203
-2025/01/02-14:19:42.716903 30ba2f000 Delete type=3 #202
-2025/01/02-14:19:45.984598 30591b000 Moved #205 to level-1 2875 bytes OK: files[ 0 1 1 0 0 0 0 ]
-2025/01/02-14:19:46.012280 30591b000 Compacting 1@1 + 1@2 files
-2025/01/02-14:19:46.085313 30591b000 Generated table #207@1: 1017 keys, 1193125 bytes
-2025/01/02-14:19:46.085343 30591b000 Compacted 1@1 + 1@2 files => 1193125 bytes
-2025/01/02-14:19:46.097274 30591b000 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/01/02-14:19:46.098028 30591b000 Delete type=2 #113
-2025/01/02-14:19:46.098900 30591b000 Delete type=2 #205
-2025/01/02-15:26:36.916031 30591b000 Level-0 table #209: started
-2025/01/02-15:26:36.916211 30591b000 Level-0 table #209: 0 bytes OK
-2025/01/02-15:26:36.916380 30591b000 Delete type=0 #206
-2025/01/02-15:26:36.916440 30591b000 Manual compaction at level-0 from '!actors!0xksHVP4eJcDr5jV' @ 72057594037927935 : 1 .. '!folders!wDA9nPoN3ZRCXcTS' @ 0 : 0; will stop at (end)
-2025/01/02-15:26:36.916471 30591b000 Manual compaction at level-1 from '!actors!0xksHVP4eJcDr5jV' @ 72057594037927935 : 1 .. '!folders!wDA9nPoN3ZRCXcTS' @ 0 : 0; will stop at (end)
+2025/01/04-11:31:40.935230 30c232000 Log #212: 0 ops saved to Table #215 OK
+2025/01/04-11:31:40.935353 30c232000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters/000212.log: OK
+2025/01/04-11:31:40.937897 30c232000 Table #214: 1017 entries OK
+2025/01/04-11:31:40.938101 30c232000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters/MANIFEST-000210: OK
+2025/01/04-11:31:40.938362 30c232000 **** Repaired leveldb /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters; recovered 1 files; 1193164 bytes. Some data may have been lost. ****
