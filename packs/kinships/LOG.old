@@ -1,8 +1,5 @@
-2025/01/02-14:19:42.733909 30c232000 Recovering log #222
-2025/01/02-14:19:42.735146 30c232000 Delete type=3 #221
-2025/01/02-14:19:42.735339 30c232000 Delete type=0 #222
-2025/01/02-15:26:36.917619 30591b000 Level-0 table #226: started
-2025/01/02-15:26:36.917688 30591b000 Level-0 table #226: 0 bytes OK
-2025/01/02-15:26:36.917840 30591b000 Delete type=0 #224
-2025/01/02-15:26:36.918280 30591b000 Manual compaction at level-0 from '!folders!2YZbRfXBrU1q06hn' @ 72057594037927935 : 1 .. '!items.effects!u7M6zbQIu4NGcoPV.NJ2Q8JDEnUEABhbt' @ 0 : 0; will stop at (end)
-2025/01/02-15:26:36.918310 30591b000 Manual compaction at level-1 from '!folders!2YZbRfXBrU1q06hn' @ 72057594037927935 : 1 .. '!items.effects!u7M6zbQIu4NGcoPV.NJ2Q8JDEnUEABhbt' @ 0 : 0; will stop at (end)
+2025/01/04-11:31:40.949329 30b22c000 Log #229: 0 ops saved to Table #232 OK
+2025/01/04-11:31:40.949470 30b22c000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/kinships/000229.log: OK
+2025/01/04-11:31:40.949690 30b22c000 Table #231: 69 entries OK
+2025/01/04-11:31:40.949851 30b22c000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/kinships/MANIFEST-000227: OK
+2025/01/04-11:31:40.950102 30b22c000 **** Repaired leveldb /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/kinships; recovered 1 files; 68927 bytes. Some data may have been lost. ****
