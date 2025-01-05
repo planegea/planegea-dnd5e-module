@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.40](https://github.com/planegea/planegea-dnd5e-module/releases/tag/1.40) - 2025-1-4
+- fixed missing map media for overworld scene
+- added starling variants; Guide, Paired, Twinkling, Dark
+- added magic items
+  - Staff of Starfall and accompanied macro
+  - Wand of the Mother Bear
+  - Wand of the Baby Bear
+  - Belt of Belts
+- added primordial dwarves; fireblood, hammerheart, shellskull, wildbraid
+- added macro for temporary tremorsense
+- added primal dragonborn kinships black, blue, green, red, white
+- added primal dragonborn artwork
+- added minimum and verified version by @johnweland in https://github.com/planegea/planegea-dnd5e-module/pull/16
+
+
+**Full Changelog**: https://github.com/planegea/planegea-dnd5e-module/compare/1.10.5...1.40
+
 ## [1.10.5](https://github.com/planegea/planegea-dnd5e-module/releases/tag/1.10.5) - 2024-12-31
 - moved apparatuses from monsters to vehicle type
 - added localization
