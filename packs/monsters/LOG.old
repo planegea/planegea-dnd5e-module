@@ -1,5 +1,5 @@
-2025/01/04-11:31:40.935230 30c232000 Log #212: 0 ops saved to Table #215 OK
-2025/01/04-11:31:40.935353 30c232000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters/000212.log: OK
-2025/01/04-11:31:40.937897 30c232000 Table #214: 1017 entries OK
-2025/01/04-11:31:40.938101 30c232000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters/MANIFEST-000210: OK
-2025/01/04-11:31:40.938362 30c232000 **** Repaired leveldb /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters; recovered 1 files; 1193164 bytes. Some data may have been lost. ****
+2025/01/04-17:48:09.796464 30ca35000 Log #218: 0 ops saved to Table #221 OK
+2025/01/04-17:48:09.796602 30ca35000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters/000218.log: OK
+2025/01/04-17:48:09.801742 30ca35000 Table #220: 1017 entries OK
+2025/01/04-17:48:09.802090 30ca35000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters/MANIFEST-000216: OK
+2025/01/04-17:48:09.802395 30ca35000 **** Repaired leveldb /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters; recovered 1 files; 1193164 bytes. Some data may have been lost. ****

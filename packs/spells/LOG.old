@@ -1,5 +1,5 @@
-2025/01/04-11:31:40.955880 30c232000 Log #187: 0 ops saved to Table #190 OK
-2025/01/04-11:31:40.955995 30c232000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/spells/000187.log: OK
-2025/01/04-11:31:40.956127 30c232000 Table #189: 41 entries OK
-2025/01/04-11:31:40.956252 30c232000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/spells/MANIFEST-000185: OK
-2025/01/04-11:31:40.956456 30c232000 **** Repaired leveldb /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/spells; recovered 1 files; 46930 bytes. Some data may have been lost. ****
+2025/01/04-17:48:09.824864 30ca35000 Log #193: 0 ops saved to Table #196 OK
+2025/01/04-17:48:09.824948 30ca35000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/spells/000193.log: OK
+2025/01/04-17:48:09.826044 30ca35000 Table #195: 41 entries OK
+2025/01/04-17:48:09.826462 30ca35000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/spells/MANIFEST-000191: OK
+2025/01/04-17:48:09.826713 30ca35000 **** Repaired leveldb /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/spells; recovered 1 files; 46930 bytes. Some data may have been lost. ****
