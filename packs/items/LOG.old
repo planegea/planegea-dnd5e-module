@@ -1,5 +1,11 @@
-2025/01/05-13:56:15.501302 30c232000 Log #219: 0 ops saved to Table #222 OK
-2025/01/05-13:56:15.501388 30c232000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/items/000219.log: OK
-2025/01/05-13:56:15.501642 30c232000 Table #221: 92 entries OK
-2025/01/05-13:56:15.501790 30c232000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/items/MANIFEST-000217: OK
-2025/01/05-13:56:15.502017 30c232000 **** Repaired leveldb /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/items; recovered 1 files; 114518 bytes. Some data may have been lost. ****
+2025/01/05-13:56:15.503027 30c232000 Delete type=3 #1
+2025/01/05-14:00:50.634938 30591b000 Level-0 table #226: started
+2025/01/05-14:00:50.634964 30591b000 Level-0 table #226: 0 bytes OK
+2025/01/05-14:00:50.635052 30591b000 Delete type=0 #224
+2025/01/05-14:00:50.635643 30591b000 Manual compaction at level-0 from '!folders!1Wcj3dMXD706RuP1' @ 72057594037927935 : 1 .. '!items!zan9G8kdc2yTpBGh' @ 0 : 0; will stop at '!items!zan9G8kdc2yTpBGh' @ 582 : 1
+2025/01/05-14:00:50.635651 30591b000 Compacting 1@0 + 0@1 files
+2025/01/05-14:00:50.637311 30591b000 Generated table #227@0: 92 keys, 114518 bytes
+2025/01/05-14:00:50.637319 30591b000 Compacted 1@0 + 0@1 files => 114518 bytes
+2025/01/05-14:00:50.637376 30591b000 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/01/05-14:00:50.637426 30591b000 Delete type=2 #221
+2025/01/05-14:00:50.639362 30591b000 Manual compaction at level-0 from '!items!zan9G8kdc2yTpBGh' @ 582 : 1 .. '!items!zan9G8kdc2yTpBGh' @ 0 : 0; will stop at (end)

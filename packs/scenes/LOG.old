@@ -1,3 +1,8 @@
-2025/01/04-17:48:09.841431 30ba2f000 Recovering log #105
-2025/01/04-17:48:09.841769 30ba2f000 Delete type=3 #103
-2025/01/04-17:48:09.841825 30ba2f000 Delete type=0 #105
+2025/01/05-13:56:15.511812 30ca35000 Recovering log #107
+2025/01/05-13:56:15.512196 30ca35000 Delete type=3 #105
+2025/01/05-13:56:15.512238 30ca35000 Delete type=0 #107
+2025/01/05-14:00:50.637608 30591b000 Level-0 table #110: started
+2025/01/05-14:00:50.637645 30591b000 Level-0 table #110: 0 bytes OK
+2025/01/05-14:00:50.637726 30591b000 Delete type=0 #108
+2025/01/05-14:00:50.639370 30591b000 Manual compaction at level-0 from '!scenes!bRSxXAlIkbGWbeGr' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!bRSxXAlIkbGWbeGr.4Uc2cFTgCq2a1WgO.lcmc9nMsIf4OZjWi' @ 0 : 0; will stop at (end)
+2025/01/05-14:00:50.639432 30591b000 Manual compaction at level-1 from '!scenes!bRSxXAlIkbGWbeGr' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!bRSxXAlIkbGWbeGr.4Uc2cFTgCq2a1WgO.lcmc9nMsIf4OZjWi' @ 0 : 0; will stop at (end)

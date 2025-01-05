@@ -1,5 +1,11 @@
-2025/01/05-13:56:15.475966 30ca35000 Log #224: 0 ops saved to Table #227 OK
-2025/01/05-13:56:15.476172 30ca35000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters/000224.log: OK
-2025/01/05-13:56:15.478769 30ca35000 Table #226: 1017 entries OK
-2025/01/05-13:56:15.479010 30ca35000 Archiving /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters/MANIFEST-000222: OK
-2025/01/05-13:56:15.479233 30ca35000 **** Repaired leveldb /Users/jweland/Library/Application Support/FoundryVTT/Data/modules/planegea/packs/monsters; recovered 1 files; 1193164 bytes. Some data may have been lost. ****
+2025/01/05-13:56:15.480538 30ca35000 Delete type=3 #1
+2025/01/05-14:00:50.616209 30591b000 Level-0 table #231: started
+2025/01/05-14:00:50.616224 30591b000 Level-0 table #231: 0 bytes OK
+2025/01/05-14:00:50.616301 30591b000 Delete type=0 #229
+2025/01/05-14:00:50.616380 30591b000 Manual compaction at level-0 from '!actors!0xksHVP4eJcDr5jV' @ 72057594037927935 : 1 .. '!folders!wDA9nPoN3ZRCXcTS' @ 0 : 0; will stop at '!folders!wDA9nPoN3ZRCXcTS' @ 4 : 1
+2025/01/05-14:00:50.616386 30591b000 Compacting 1@0 + 0@1 files
+2025/01/05-14:00:50.630296 30591b000 Generated table #232@0: 1017 keys, 1193164 bytes
+2025/01/05-14:00:50.630317 30591b000 Compacted 1@0 + 0@1 files => 1193164 bytes
+2025/01/05-14:00:50.630373 30591b000 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/01/05-14:00:50.630468 30591b000 Delete type=2 #226
+2025/01/05-14:00:50.630808 30591b000 Manual compaction at level-0 from '!folders!wDA9nPoN3ZRCXcTS' @ 4 : 1 .. '!folders!wDA9nPoN3ZRCXcTS' @ 0 : 0; will stop at (end)
