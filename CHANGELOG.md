@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - added macro for temporary tremorsense
 - added primal dragonborn kinships black, blue, green, red, white
 - added primal dragonborn artwork
-- added minimum and verified version by @johnweland in https://github.com/planegea/planegea-dnd5e-module/pull/16
+- added minimum and verified version
 
 
 **Full Changelog**: https://github.com/planegea/planegea-dnd5e-module/compare/1.10.5...1.40
