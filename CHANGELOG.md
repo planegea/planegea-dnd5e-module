@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.40.5](https://github.com/planegea/planegea-dnd5e-module/releases/tag/1.40.5) - 2025-1-8
+- Set all compendium items to use 2014 rules
+
+
+**Full Changelog**: https://github.com/planegea/planegea-dnd5e-module/compare/1.40.1...1.40.5
 ## [1.40](https://github.com/planegea/planegea-dnd5e-module/releases/tag/1.40) - 2025-1-4
 - fixed missing map media for overworld scene
 - added starling variants; Guide, Paired, Twinkling, Dark
