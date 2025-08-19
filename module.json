@@ -10,7 +10,7 @@
   "readme": "README.md",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13"
   },
   "description": "This module contains all the Planegea content contained in the Star-Shaman's Song of Planegea as well as the Patreon Premium Content.",
   "flags": {
