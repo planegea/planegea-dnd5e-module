@@ -1,0 +1,20 @@
+/* ---------------------------------------- */
+/*  Project Variables                       */
+/* ---------------------------------------- */
+.table-of-contents[data-compendium-id="planegea.content"],
+.planegea {
+    /* ---------------------------------------- */
+    /*  Colors                                  */
+    /* ---------------------------------------- */
+    --narrative-border: #fff;
+    --notable-color: #000; /* #ebdbcd; */
+    --notable-text-color: #fff; /* #ebdbcd; */
+    --table-color-odd: #dce9ee;
+    --table-color-even: #f2f7f9;
+    --table-border-color: #edeae8;
+    --table-header-color: #fdfdfd;
+    --planegea-red: #cd563b;
+    --planegea-border-image: url(../assets/ui/page-background.webp) 40 40 40 10
+        fill / 5% 3% 2% 1% / 0 round;
+    --planegea-saturated-gold: color(srgb 0.900816 0.74032 0.420752);
+}

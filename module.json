@@ -12,7 +12,7 @@
     "minimum": "12",
     "verified": "13"
   },
-  "description": "This module contains all the Planegea content contained in the Star-Shaman's Song of Planegea as well as the Patreon Premium Content.",
+  "description": "<p>This module contains all the Planegea content contained in the Star-Shaman's Song of Planegea as well as the Patreon Premium Content.</p>",
   "flags": {
     "dnd5e": {
       "sourceBooks": {
@@ -153,11 +153,25 @@
       "label": "Macros",
       "path": "packs/macros",
       "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "star-shamans-song-of-planegea",
+      "label": "Star Shamans Song of Planegea",
+      "path": "packs/star-shamans-song-of-planegea",
+      "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "flags": {
+        "display": "table-of-contents"
+      }
     }
   ],
   "packFolders": [
@@ -166,6 +180,7 @@
       "sorting": "a",
       "color": "#044904",
       "packs": [
+        "star-shamans-song-of-planegea",
         "monsters",
         "kinships",
         "backgrounds",
@@ -180,6 +195,11 @@
     }
   ],
   "esmodules": ["scripts/planegea.js"],
+  "styles": [
+    {
+      "src": "styles/planegea.css"
+    }
+  ],
   "relationships": {
     "systems": [
       {
@@ -187,7 +207,7 @@
         "type": "system",
         "compatibility": {
           "minimum": "4.0.0",
-          "verified": "4.1.2"
+          "verified": "5.1.2"
         }
       }
     ]
