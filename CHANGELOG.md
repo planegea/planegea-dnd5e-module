@@ -57,4 +57,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Beasts
 - Added Overworld scene
 
-**Full Changelog**: https://github.com/johnweland/plangea-dnd5e-module/commits/1.0.0
+**Full Changelog**: https://github.com/johnweland/planegea-dnd5e-module/commits/1.0.0

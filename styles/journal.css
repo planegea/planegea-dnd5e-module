@@ -5,6 +5,20 @@
     & .journal-sheet-container .journal-entry-content {
         border-image: var(--planegea-border-image);
 
+        & .journal-entry-page.level2 {
+            & .journal-page-header h2 {
+                border-bottom: unset;
+                border-image: unset;
+                border-width: 2px;
+                text-shadow: none;
+                display: block;
+                font-size: 3em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                unicode-bidi: isolate;
+            }
+        }
+
         /**
      * Title and Header styling
      * to match book
@@ -134,7 +148,7 @@
             }
 
             & tr:hover {
-                background-color: var(--notable-color);
+                background-color: var(--table-hover-color);
             }
 
             & td {

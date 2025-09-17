@@ -1,4 +1,8 @@
 import PlanegeaJournalSheet from "./apps/journal-sheet.mjs";
+
+/* -------------------------------------------- */
+/*  Hooks                                       */
+/* -------------------------------------------- */
 Hooks.once("init", () => {
   game.settings.register("planegea", "lastVersion", {
     name: "PLANEGEA.SETTING.VERSION.name",
@@ -9,11 +13,8 @@ Hooks.once("init", () => {
     default: "1.0.0",
   });
 
-  // Creating PLANEGEA config object
-  CONFIG.PLANEGEA = {};
-
   // Register Journal Sheet
-  foundry.applications.apps.DocumentSheetConfig.registerSheet(
+  DocumentSheetConfig.registerSheet(
     JournalEntry,
     "planegea",
     PlanegeaJournalSheet,
@@ -50,10 +51,10 @@ Hooks.once("ready", async () => {
 
   if (foundry.utils.isNewerVersion(currentVersion, lastVersion)) {
     const journal = await fromUuid(
-      "Compendium.planegea.content.JournalEntry.Changelog0000",
+      "Compendium.planegea.content.JournalEntry.Changelog",
     );
     const page = journal.pages.contents[journal.pages.contents.length - 1];
     journal.sheet.render(true, { pageId: page.id });
-    game.settings.set("plangea", "lastVersion", currentVersion);
+    game.settings.set("planegea", "lastVersion", currentVersion);
   }
 });

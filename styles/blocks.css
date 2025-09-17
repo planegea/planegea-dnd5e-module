@@ -1,48 +1,5 @@
 /*.sheet.journal-entry.dnd5e2-journal*/
-.planegea/*, .dnd5e.item*/ {
-    .journal-entry-content {
-        container-type: inline-size;
-    }
-    article {
-        column-count: 1; /* default: single column on mobile */
-        column-gap: 2rem;
-        column-rule: 1px solid #e5e7eb; /* optional divider */
-        /* Helps even column heights where supported */
-        column-fill: balance;
-    }
-
-    /* ≥ 768px: 2 columns */
-    @container (min-width: 650px) {
-        article {
-            column-count: 2;
-        }
-    }
-
-    article img.span-all {
-        column-span: all;
-        /* Optional: add spacing so the flow feels natural */
-        margin: 1.5rem 0;
-    }
-
-    /* ≥ 1280px: bump to 3 columns (optional) */
-    /*@media (min-width: 1280px) {
-        article {
-            column-count: 3;
-        }
-    }*/
-
-    /* Avoid awkward breaks inside certain elements */
-    article p,
-    article ul,
-    article ol,
-    article img,
-    article figure,
-    article blockquote,
-    article pre,
-    article code {
-        break-inside: avoid;
-    }
-
+.planegea/*, .dnd5e.item*/
     img {
         border: none;
     }
@@ -53,7 +10,9 @@
     & .window-content :is(h1, h2, h3, h4) {
         color: var(--planegea-red);
     }
-
+    & .mt {
+      margin-top: 2rem; /* or whatever margin you want */
+    }
     /* UTILITY */
     & .space-between {
         display: flex;
@@ -247,20 +206,19 @@
         color: #000;
         margin-right: 3px;
     }
-
-    & aside.notable {
-        display: flow-root;
+    & .notable {
+        display: inline-block;
         background-color: var(--notable-color);
         color: var(--notable-text-color);
-        margin: 30px 5px;
-        margin-bottom: 80px;
+        margin: 5px 5px 30px 5px;
         padding: 20px 28px 25px 30px;
         border-width: 3px 1px;
         border-style: solid;
         border-color: #000; /* #231f20 #b3b3b3; */
         filter: drop-shadow(0 5px 8px var(--dnd5e-shadow-15));
 
-        & h3 {
+        & h3,
+        h4 {
             font-size: 1.5em;
             font-family: var(--dnd5e-font-modesto);
             font-weight: bold;
@@ -300,7 +258,11 @@
     }
 }
 
-/* Description @Embeds from Plangea content, _within_ planegea content,
+.journal-entry-page.image {
+    column-count: 1;
+}
+
+/* Description @Embeds from Planegea content, _within_ planegea content,
  * and flagged as planegea content */
 .dnd5e2 figure.content-embed.planegea,
 .planegea figure.content-embed,
